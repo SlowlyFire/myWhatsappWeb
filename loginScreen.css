@@ -1,0 +1,99 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: azure;
+    font-family: 'Arial';
+    text-align: center;
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.topBar {
+    height: 20%;
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+}
+
+#whatsappLogo {
+    width: auto;
+    padding: 5px;
+    height: 100%;
+}
+
+.greenBoxLogin {
+    width: 60%;
+    border-radius: 30px;
+    background-color: darkseagreen;
+    margin-top: -60px;
+    display: flex;
+}
+
+.myForm {
+    width: 100%;
+    padding: 18px;
+}
+
+.allFields {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bars {
+    height: 42px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.userNameDiv {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.fieldLabels {
+    width: 200px;
+}
+
+.passwordDiv {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.loginDiv {
+    display: flex;
+    width: 70%;
+}
+
+#loginButton {
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: honeydew;
+    width: 40%;
+    margin-left: 40px;
+}
+
+.registered {
+    display: flex;
+    width: 30%;
+}
